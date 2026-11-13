@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
   <meta name="robots" content="noindex">
-  <title>Ring Rescue (test build)</title>
+  <title>Tumble Home (test build)</title>
   <style>
     html, body { height: 100%; margin: 0; background: #14161f; color: #e9e6f5; font-family: "Segoe UI", system-ui, sans-serif; overflow: hidden; overscroll-behavior: none; }
     #stage { position: fixed; inset: 0; }
@@ -20,7 +20,7 @@
   <div id="stage">
     <canvas id="unity-canvas" tabindex="-1"></canvas>
     <div id="loading">
-      <strong>Ring Rescue</strong>
+      <strong>Tumble Home</strong>
       <div id="track"><div id="fill"></div></div>
       <p id="status">Loading the game (about 23 MB)</p>
     </div>
@@ -36,7 +36,7 @@
         codeUrl: "Build/WebGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "Ring Rescue",
+        productName: "Tumble Home",
         productVersion: "1.0",
         showBanner: function (msg, type) { if (type === "error") { status.textContent = msg; document.getElementById("loading").style.display = "flex"; } }
       }, function (p) {
