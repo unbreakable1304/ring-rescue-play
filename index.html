@@ -25,15 +25,15 @@
       <p id="status">Loading the game (about 23 MB)</p>
     </div>
   </div>
-  <script src="Build/WebGL.loader.js?v=11131745"></script>
+  <script src="Build/WebGL.loader.js?v=11131825"></script>
   <script>
     (function () {
       var status = document.getElementById("status");
       if (typeof createUnityInstance !== "function") { status.textContent = "The game loader did not load. Reload the page to try again."; return; }
       createUnityInstance(document.getElementById("unity-canvas"), {
-        dataUrl: "Build/WebGL.data?v=11131745",
-        frameworkUrl: "Build/WebGL.framework.js?v=11131745",
-        codeUrl: "Build/WebGL.wasm?v=11131745",
+        dataUrl: "Build/WebGL.data?v=11131825",
+        frameworkUrl: "Build/WebGL.framework.js?v=11131825",
+        codeUrl: "Build/WebGL.wasm?v=11131825",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Tumble Home",
